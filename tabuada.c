@@ -1,17 +1,17 @@
 #include <stdio.h>
 
-int main()
+int tabuada()
 {
-    int contador, tabuada, resultado;
+    int contador, tabu, resultado;
 
     printf("Entre o numero da tabuada: ");
-    scanf("%d", &tabuada);
+    scanf("%d", &tabu);
 
     for (contador = 1; contador <= 10; contador++)
     {
-        resultado = tabuada*contador;
+        resultado = tabu*contador;
 
-        printf("%d * %d = %d \n", tabuada, contador, resultado);
+        printf("%d * %d = %d \n", tabu, contador, resultado);
     }
     
     return 0;
